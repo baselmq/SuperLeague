@@ -22,7 +22,7 @@ const Home = () => {
         class="carousel slide"
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner">
+        <div class="carousel-inner mt-4 pt-1 custom_carousel">
           <div class="carousel-item active">
             <img src={image1} class="d-block w-100" alt="..." />
           </div>
