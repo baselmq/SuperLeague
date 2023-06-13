@@ -10,7 +10,7 @@ const NavBar = () => {
   const [results, setResults] = useState([]);
 
   return (
-    <nav className="px-5 navbar navbar-expand-lg  fixed-top custom__nav">
+    <nav className="px-5 navbar navbar-expand-lg fixed-top custom__nav">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <img className="logo" src={logo} alt="" />

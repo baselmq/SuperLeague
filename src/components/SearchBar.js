@@ -16,7 +16,13 @@ export const SearchBar = ({ setResults }) => {
 
   return (
     <div className="input-wrapper">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" onChange={search}></input>
+      <input
+        className="form-control me-2"
+        type="search"
+        placeholder="Search"
+        aria-label="Search"
+        onChange={search}
+      ></input>
       {/* <input placeholder="Type to search..." onChange={search} /> */}
     </div>
   );
