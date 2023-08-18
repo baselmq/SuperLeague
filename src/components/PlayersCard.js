@@ -1,5 +1,4 @@
 import React from "react";
-import clubsData from "../data/clubs";
 import "../css/main.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";

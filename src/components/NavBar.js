@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/icons/logo.svg";
-import Search from "./Search";
 import { SearchBar } from "./SearchBar";
 import "bootstrap/dist/css/bootstrap.css";
 import "../css/main.css";
@@ -10,11 +9,11 @@ const NavBar = () => {
   const [results, setResults] = useState([]);
 
   return (
-    <nav className="px-5 navbar navbar-expand-lg fixed-top custom__nav">
+    <nav className="px-lg-5 px-md-3 navbar navbar-expand-lg fixed-top custom__nav">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" to="/">
           <img className="logo" src={logo} alt="" />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -39,7 +38,7 @@ const NavBar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/">
+              <Link className="nav-link active" aria-current="page" to="#">
                 About us
               </Link>
             </li>
@@ -49,7 +48,7 @@ const NavBar = () => {
               <div className="search-bar-container">
                 <SearchBar setResults={setResults} />
                 {results && results.length > 0 && (
-                  <SearchResultsList results={results} />
+                  <SearchResultsList results={results} setResult={setResults} />
                 )}
               </div>
             </form>

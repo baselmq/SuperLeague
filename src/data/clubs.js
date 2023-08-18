@@ -11,56 +11,56 @@ const clubsData = [
       {
         name: "Thibaut Courtois",
         photo:
-          "https://www.realmadrid.com/img/vertical_380px/380x501_courtois_20230215094344.jpg",
+          "https://www.realmadrid.com/img/vertical_380px/courtois_380x501_20230810054608.jpg",
         number: 1,
         position: "Goalkeeper",
       },
       {
         name: "David Alaba",
         photo:
-          "https://www.realmadrid.com/img/vertical_380px/380x501_alaba_20230215094352.jpg",
+          "https://www.realmadrid.com/img/vertical_380px/alaba_380x501_20230810054614.jpg",
         number: 4,
         position: "Defender",
       },
       {
         name: "Éder Militão",
         photo:
-          "https://www.realmadrid.com/img/vertical_380px/380x501_militao_20230215094350.jpg",
+          "https://www.realmadrid.com/img/vertical_380px/militao_380x501_20230810054609.jpg",
         number: 3,
         position: "Defender",
       },
       {
         name: "Antonio Rüdiger",
         photo:
-          "https://www.realmadrid.com/img/vertical_380px/380x501_rudiger_20230215094414.jpg",
+          "https://www.realmadrid.com/img/vertical_380px/rudiger_380x501_20230810055116.jpg",
         number: 22,
         position: "Defender",
       },
       {
         name: "Daniel Carvajal",
         photo:
-          "https://www.realmadrid.com/img/vertical_380px/380x501_carvajal_20230215094337.jpg",
+          "https://www.realmadrid.com/img/vertical_380px/carvajal_380x501_20230810054603.jpg",
         number: 2,
         position: "Defender",
       },
       {
         name: "Aurélien Tchouaméni",
         photo:
-          "https://www.realmadrid.com/img/vertical_380px/380x501_tchouameni_20230215094415.jpg",
+          "https://www.realmadrid.com/img/vertical_380px/tchouameni_380x501_20230810055601.jpg",
         number: 18,
         position: "Midfielder",
       },
       {
         name: "Toni Kroos",
         photo:
-          "https://www.realmadrid.com/img/vertical_380px/380x501_kroos_20230215094339.jpg",
+          "https://www.realmadrid.com/img/vertical_380px/kroos_380x501_20230810055112.jpg",
         number: 8,
         position: "Midfielder",
       },
       {
         name: "Eduardo Camavinga",
         photo:
-          "https://www.realmadrid.com/img/vertical_380px/380x501_camavinga_20230215094413.jpg",
+          "https://www.realmadrid.com/img/vertical_380px/camavinga_380x501_20230810055115.jpg",
         number: 12,
         position: "Midfielder",
       },
@@ -68,21 +68,21 @@ const clubsData = [
       {
         name: "Valverde Dipetta",
         photo:
-          "https://www.realmadrid.com/img/vertical_380px/380x501_valverde_20230215094345.jpg",
+          "https://www.realmadrid.com/img/vertical_380px/valverde_380x501_20230810055111.jpg",
         number: 15,
         position: "Midfielder",
       },
       {
         name: "Vinicius Junior",
         photo:
-          "https://www.realmadrid.com/img/vertical_380px/380x501_vinicius_20230215094346.jpg",
+          "https://www.realmadrid.com/img/vertical_380px/vinicius_380x501_20230810055554.jpg",
         number: 7,
         position: "Forward",
       },
       {
         name: "Rodrygo Goes",
         photo:
-          "https://www.realmadrid.com/img/vertical_380px/380x501_rodrygo_20230215094348.jpg",
+          "https://www.realmadrid.com/img/vertical_380px/rodrygo_380x501_20230810055556.jpg",
         number: 11,
         position: "Forward",
       },

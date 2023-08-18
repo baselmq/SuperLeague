@@ -1,14 +1,16 @@
 .details_image_club {
-  width: 350px;
+  width: 100%;
+  max-width: 350px;
   max-height: 470px;
 }
 .name__club {
-  font-size: 120px;
+  font-size: 97px;
 }
 
 .flip-card {
   background-color: transparent;
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   height: 100%;
   perspective: 1000px;
   font-family: sans-serif;
@@ -27,6 +29,7 @@
   height: 100%;
   text-align: center;
   transition: transform 0.8s;
+  top: 0;
   transform-style: preserve-3d;
 }
 
@@ -72,6 +75,9 @@ bisque 40%,
 rgb(255, 185, 160) 78% */
 .trophies__card {
   position: relative;
+  background-color: #f8f9fad5;
+  padding: 10px;
+  border-radius: 10px;
 }
 .trophies__img {
   width: 70px;
@@ -91,4 +97,6 @@ rgb(255, 185, 160) 78% */
 }
 .trophies__name {
   font-size: 13px;
+}
+.custom__details {
 }
